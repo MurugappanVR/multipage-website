@@ -26,9 +26,9 @@ function getAppKey(){
   let appKey = sessionStorage.getItem('appKey');
   if (!appKey) {
     if (Math.random() < 0.5) {
-      appKey = '27a4a87d6e27e86a7cd64de89cb3ec8d';//Delivery Site
+      appKey = 'bf015c35897d001af85e4cd6d1ab642b';//Delivery Site
     } else {
-      appKey = 'c012eed591418a9aa7e1655a6bb83039';//zylker
+      appKey = 'bf015c35897d001af85e4cd6d1ab642b';//zylker
     }
     sessionStorage.setItem('appKey', appKey);
   }
